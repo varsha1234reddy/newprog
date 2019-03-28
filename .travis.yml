@@ -1,0 +1,9 @@
+include:
+-language:c
+sudo:false #only for faster builds
+compiler:
+- c lang
+- gcc
+script
+gcc -o prog prog.c
+./test
